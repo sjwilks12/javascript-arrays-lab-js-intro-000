@@ -25,4 +25,3 @@ function appendKitten(name) {
   newKittens = concat(kittens, name)
   return newKittens
 }
-
