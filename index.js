@@ -20,3 +20,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
   return kittens
 }
+
+function appendKitten(name) {
+  newKittens = concat(kittens, name)
+  return newKittens
+}
+
