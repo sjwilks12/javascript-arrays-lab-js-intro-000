@@ -10,4 +10,3 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
-
